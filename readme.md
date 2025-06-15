@@ -17,7 +17,7 @@ Note: This is **not the official implementation**, but a modified version for em
 Before running the code, be sure to set your `PYTHONPATH`:
 
 ```bash
-export PYTHONPATH=/home/kamadaorin/work/FoundationStereo/dinov2wo
+export PYTHONPATH=/path/to/FoundationStereo/dinov2
 ```
 
 ## Links

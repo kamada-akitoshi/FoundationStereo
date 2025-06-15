@@ -1,7 +1,26 @@
 # FoundationStereo: Zero-Shot Stereo Matching
 
-This is the official implementation of our paper accepted by CVPR 2025 Oral (**All strong accept**)
 
+This is a custom adaptation of FoundationStereo for NVIDIA Jetson with JetPack 6.2v (CUDA 12.6), using a locally installed DINOv2 model.
+
+Note: This is **not the official implementation**, but a modified version for embedded deployment and local usage.
+
+## 🚀 Environment Requirements
+
+- JetPack 6.2
+- CUDA 12.6
+- Python 3.10+ recommended
+- Locally installed `dinov2` repository
+
+## ⚙️ PYTHONPATH Setting
+
+Before running the code, be sure to set your `PYTHONPATH`:
+
+```bash
+export PYTHONPATH=/home/kamadaorin/work/FoundationStereo/dinov2wo
+```
+
+## Links
 [[Website]](https://nvlabs.github.io/FoundationStereo/) [[Paper]](https://arxiv.org/abs/2501.09898) [[Video]](https://www.youtube.com/watch?v=R7RgHxEXB3o)
 
 Authors: Bowen Wen, Matthew Trepte, Joseph Aribido, Jan Kautz, Orazio Gallo, Stan Birchfield

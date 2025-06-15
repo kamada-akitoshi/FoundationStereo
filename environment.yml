@@ -5,12 +5,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - pip:
-    - torch==2.4.1
-    - torchvision==0.19.1
-    - torchaudio==2.4.1
     - scikit-image
     - omegaconf
     - opencv-contrib-python
@@ -26,10 +23,8 @@ dependencies:
     - trimesh
     - pyyaml
     - imageio
-    - open3d
     - transformations
     - einops
     - gdown
     - nodejs
-    - xformers==0.0.28.post1
     - huggingface-hub
